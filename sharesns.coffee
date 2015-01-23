@@ -16,8 +16,9 @@ class ShareSNS extends Popup
     name: 'popup'
     type: ''
 
-  constructor: (@$el, opts) ->
+  constructor: (@el, opts) ->
     @opts = $.extend {}, @_defaults, opts
+    @$el = $(@el)
     @setParam()
     @setURL()
     @addEvent()
