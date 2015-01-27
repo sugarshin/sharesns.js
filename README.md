@@ -1,1 +1,5 @@
 # ShareSNS
+
+```shell
+npm start
+```

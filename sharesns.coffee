@@ -1,5 +1,5 @@
 $ = require 'jquery'
-Popup = require './popup'
+Popup = require 'popup.js'
 
 class ShareSNS extends Popup
   "use strict"
